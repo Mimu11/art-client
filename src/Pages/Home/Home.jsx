@@ -4,10 +4,14 @@ import CraftItem from './CraftItem';
 import { useLoaderData } from 'react-router-dom';
 import PaintingBlog from './PaintingBlog';
 import Accordian from './Accordian';
+import { Helmet } from 'react-helmet-async';
 const Home = props => {
     const arts = useLoaderData();
     return (
         <div>
+            <Helmet>
+                <title>Art & Craft</title>
+            </Helmet>
             <Banner></Banner>
             <div className='text-center mt-10'>
                 <h1 className='text-4xl md:text-5xl text-cyan-800 font-bold'>Art Collections</h1>
