@@ -20,7 +20,7 @@ const AddCraftItem = props => {
 
         const art = { itemName, subcategoryName, description, price, rating, customization, time, stock, email, name, photo }
         console.log(art)
-        fetch('http://localhost:5000/art', {
+        fetch('https://art-store-server-sandy.vercel.app/art', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -153,7 +153,7 @@ const AddCraftItem = props => {
                     </label>
                 </div>
 
-                <input type="submit" value="Add Coffee" className='hover:bg-cyan-800 hover:text-white bg-white text-cyan-800 w-full rounded-lg p-2 my-6 text-xl font-semibold' />
+                <input type="submit" value="Add Art & Craft" className='hover:bg-cyan-800 hover:text-white bg-white text-cyan-800 w-full rounded-lg p-2 my-6 text-xl font-semibold' />
 
             </form>
         </div>

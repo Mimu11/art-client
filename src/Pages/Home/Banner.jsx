@@ -9,13 +9,15 @@ import { BsFlower2 } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 const Banner = props => {
     return (
-        <div className='w-auto '>
-            <div className="carousel relative opacity-100 lg:min-h-screen text-white w-full">
-                <div id="slide1" className="carousel-item bg-cover bg-no-repeat  w-full"
+        <div className='w-auto text-white'>
+            <div className="carousel  relative lg:min-h-screen  w-full">
+                <div id="slide1" className="carousel-item  bg-cover bg-no-repeat  w-full"
                     style={{ backgroundImage: `url(${slider4})` }}>
-                    <div className='justify-items-center w-full my-4 content-center  space-y-8 text-black'>
-                        <h1 className=' text-4xl font-bold md:text-6xl text-center '>Selecting Creative Art Events</h1>
-                        <p className='w-2/3 mx-auto font-Firasans'> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action. Time for action is not suited to unpleasant moments. But my passion sits comfortably. The pain is great, but it is manageable."</p>
+                    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                    <div className='justify-items-center drop-shadow-lg w-full my-4 content-center space-y-8 '>
+                        <h1 className=' text-4xl font-bold md:text-6xl text-center '>Selecting Creative Art
+                            Events</h1>
+                        <p className='md:w-2/3 text-center font-Firasans mx-auto'> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action."</p>
                         <Link to='/myArt'>
                             <button className='bg-cyan-800 text-white mt-8 hover:bg-white hover:text-cyan-800 p-3 rounded-lg'>View Collection</button>
                         </Link>
@@ -25,11 +27,12 @@ const Banner = props => {
                         <a href="#slide2" className="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide2" className="carousel-item bg-cover bg-no-repeat relative w-full"
+                <div id="slide2" className="carousel-item bg-cover  bg-no-repeat relative w-full"
                     style={{ backgroundImage: `url(${slider2})` }}>
-                    <div className='justify-items-center my-4 w-full content-center  space-y-8 text-black'>
+                    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                    <div className='justify-items-center text-white drop-shadow-lg my-4 w-full content-center  space-y-8 '>
                         <h1 className='text-4xl font-bold md:text-6xl text-center '>Selecting Creative Art Events</h1>
-                        <p className='w-2/3 mx-auto font-Firasans '> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action. Time for action is not suited to unpleasant moments. But my passion sits comfortably. The pain is great, but it is manageable."</p>
+                        <p className='md:w-2/3 mx-auto text-center font-Firasans '> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action."</p>
                         <Link to='/myArt'>
                             <button className='bg-cyan-800 mt-8 text-white hover:bg-white hover:text-cyan-800 p-3 rounded-lg'>View Collection</button>
                         </Link>
@@ -41,9 +44,10 @@ const Banner = props => {
                 </div>
                 <div id="slide3" className="carousel-item bg-cover bg-no-repeat relative w-full"
                     style={{ backgroundImage: `url(${slider3})` }}>
-                    <div className='justify-items-center my-4 w-full content-center  space-y-8 text-black'>
+                    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                    <div className='justify-items-center drop-shadow-lg my-4 w-full content-center  space-y-8 '>
                         <h1 className='text-4xl font-bold md:text-6xl text-center '>Selecting Creative Art Events</h1>
-                        <p className='w-2/3 mx-auto font-Firasans'> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action. Time for action is not suited to unpleasant moments. But my passion sits comfortably. The pain is great, but it is manageable."</p>
+                        <p className='md:w-2/3 mx-auto text-center font-Firasans'> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action."</p>
                         <Link to='/myArt'>
                             <button className='bg-cyan-800 mt-8 text-white hover:bg-white hover:text-cyan-800 p-3 rounded-lg'>View Collection</button>
                         </Link>
@@ -54,11 +58,11 @@ const Banner = props => {
                     </div>
                 </div>
                 <div id="slide4" className="carousel-item bg-cover bg-no-repeat relative w-full"
-                    style={{ backgroundImage: `url(${slider1})` }}
-                >
-                    <div className='justify-items-center my-4 content-center w-full  space-y-8 text-black'>
+                    style={{ backgroundImage: `url(${slider1})` }}>
+                    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                    <div className='justify-items-center drop-shadow-lg my-4 content-center w-full  space-y-8 '>
                         <h1 className='text-4xl font-bold md:text-6xl text-center '>Selecting Creative Art Events</h1>
-                        <p className='w-2/3 mx-auto font-Firasans'> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action. Time for action is not suited to unpleasant moments. But my passion sits comfortably. The pain is great, but it is manageable."</p>
+                        <p className='md:w-2/3 mx-auto text-center font-Firasans'> "Nor should there be any pressure in the fermentum, the placement of the urn. In this condition, it is important to not disturb the ease of action."</p>
                         <Link to='/myArt'>
                             <button className='bg-cyan-800 mt-8 text-white hover:bg-white hover:text-cyan-800 p-3 rounded-lg'>View Collection</button>
                         </Link>

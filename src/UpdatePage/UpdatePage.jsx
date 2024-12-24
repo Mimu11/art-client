@@ -19,7 +19,7 @@ const UpdatePage = props => {
         const photo = form.photo.value;
         const updateArt = { itemName, subcategoryName, description, price, rating, customization, time, stock, photo }
         console.log(updateArt);
-        fetch(`http://localhost:5000/art/${_id}`, {
+        fetch(`https://art-store-server-sandy.vercel.app/art/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

@@ -22,7 +22,7 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: () => fetch('http://localhost:5000/art')
+                loader: () => fetch('https://art-store-server-sandy.vercel.app/art')
             },
             {
                 path: '/addCraft',
@@ -31,12 +31,12 @@ const router = createBrowserRouter([
             {
                 path: '/allArt',
                 element: <AllArtAndCraft></AllArtAndCraft>,
-                loader: () => fetch('http://localhost:5000/art')
+                loader: () => fetch('https://art-store-server-sandy.vercel.app/art')
             },
             {
                 path: '/myArt',
                 element: <PrivateRouter><MyArtAndCraft></MyArtAndCraft></PrivateRouter>,
-                loader: () => fetch('http://localhost:5000/art')
+                loader: () => fetch('https://art-store-server-sandy.vercel.app/art')
             },
             {
                 path: '/login',
@@ -49,12 +49,12 @@ const router = createBrowserRouter([
             {
                 path: 'details/:id',
                 element: <PrivateRouter><DetailsPage></DetailsPage></PrivateRouter>,
-                loader: ({ params }) => fetch(`http://localhost:5000/art/${params.id}`)
+                loader: ({ params }) => fetch(`https://art-store-server-sandy.vercel.app/art/${params.id}`)
             },
             {
                 path: 'update/:id',
                 element: <PrivateRouter><UpdatePage></UpdatePage></PrivateRouter>,
-                loader: ({ params }) => fetch(`http://localhost:5000/art/${params.id}`)
+                loader: ({ params }) => fetch(`https://art-store-server-sandy.vercel.app/art/${params.id}`)
             }
         ]
     }

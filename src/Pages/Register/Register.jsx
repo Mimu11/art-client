@@ -23,7 +23,7 @@ const Register = props => {
             .then(result => {
                 console.log(result.user)
                 const user = { name, email, password, photo }
-                fetch('http://localhost:5000/user', {
+                fetch('https://art-store-server-sandy.vercel.app/user', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

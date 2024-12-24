@@ -21,7 +21,7 @@ const Header = () => {
         return
     }
     return (
-        <div className="navbar font-Firasans bg-white opacity-90 text-black font-semibold">
+        <div className="navbar font-Firasans bg-white  text-black font-semibold">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost p-0 lg:hidden">
@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm  dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm  dropdown-content bg-[#fff6e4] text-cyan-600 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         {navLinks}
                     </ul>
                 </div>

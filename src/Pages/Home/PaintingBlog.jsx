@@ -24,7 +24,7 @@ const PaintingBlog = props => {
                 <div className=" bg-base-100 flex flex-col shadow-xl">
                     <figure>
                         <img
-                            src="https://i.ibb.co.com/wLnq6r8/Blog-01.jpg"
+                            src="https://i.ibb.co.com/h1xD17G/Blog-02.jpg"
                             alt="Shoes" />
                     </figure>
                     <div className="card-body flex-grow bg-[#fff6e4] space-y-2 text-black">
@@ -36,7 +36,7 @@ const PaintingBlog = props => {
                 <div className="flex flex-col bg-base-100  shadow-xl">
                     <figure>
                         <img
-                            src="https://i.ibb.co.com/wLnq6r8/Blog-01.jpg"
+                            src="https://i.ibb.co.com/phXDzwT/Blog-03.jpg"
                             alt="Shoes" />
                     </figure>
                     <div className="card-body flex-grow bg-[#fff6e4]  space-y-2 text-black">
