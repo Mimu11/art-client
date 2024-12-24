@@ -2,12 +2,10 @@ import PropTypes from 'prop-types';
 import Banner from './Banner';
 import CraftItem from './CraftItem';
 import { useLoaderData } from 'react-router-dom';
-import { useState } from 'react';
 import PaintingBlog from './PaintingBlog';
 import Accordian from './Accordian';
 const Home = props => {
-    const loadedArt = useLoaderData();
-    const [arts, setArts] = useState(loadedArt);
+    const arts = useLoaderData();
     return (
         <div>
             <Banner></Banner>

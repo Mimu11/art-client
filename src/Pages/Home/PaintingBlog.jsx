@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-
 const PaintingBlog = props => {
     return (
         <div className='my-14 p-4'>
